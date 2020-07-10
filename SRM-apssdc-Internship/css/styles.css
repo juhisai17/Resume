@@ -1,0 +1,62 @@
+.resume{
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.child{
+	width: 60%;
+	border:1px #6F3D79 ;
+	box-shadow: 0px 10px 10px -10px #000;
+	margin: 2%;
+	padding: 2%;
+	text-align: center;
+	border-radius: 5px;
+}
+#image{
+	border-radius: 100%;
+	box-shadow: 0px 10px 10px -10px #000;
+	display:block;
+	margin:0 auto 20px auto;
+	width: 15vw;
+	height:15vw;
+	object-fit:cover;
+}
+.profile{
+	width: 100px;
+	border: 1px solid #6F3D79;
+	padding: 2%;
+	margin: 2%;
+	box-shadow: 0px 10px 10px -10px #000;
+}
+.contact{
+	width:3%;
+	height: 3%;
+	padding: 3px;
+}
+#details
+{
+	width: 60%;
+	border:1px #6F3D79 ;
+	box-shadow: 0px 10px 10px -10px #000;
+	margin: 2%;
+	padding: 2%;
+	text-align: left;
+	border-radius: 5px;
+}
+.headings{
+	color: red;
+	font-size: 25px;
+	text-align: left;
+}
+@media only screen and(min-width: 360px) and (max-width: 640px){
+	.child{
+		width: 60%;
+		border:1px #6F3D79 ;
+		box-shadow: 0px 10px 10px -10px #000;
+		margin: 2%;
+		padding: 2%;
+		text-align: center;
+		border-radius: 5px;
+	}
+}
